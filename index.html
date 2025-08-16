@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Elyx Member Chat Viewer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Elyx Member Chat Viewer</h1>
+  
+  <div class="controls">
+    <label for="monthSelector">Select Month:</label>
+    <select id="monthSelector" onchange="loadWeeks()">
+      <option value="">Select a month...</option>
+      <option value="month1">September 2025 (Month 1)</option>
+      <option value="month2">October 2025 (Month 2)</option>
+      <option value="month3">November 2025 (Month 3)</option>
+      <option value="month4">December 2025 (Month 4)</option>
+      <option value="month5">January 2026 (Month 5)</option>
+      <option value="month6">February 2026 (Month 6)</option>
+    </select>
+    
+    <label for="weekSelector" id="weekLabel" style="display: none;">Select Week:</label>
+    <select id="weekSelector" onchange="loadWeekChat()" style="display: none;">
+      <option value="">Select a week...</option>
+    </select>
+  </div>
+
+  <div id="chat"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
