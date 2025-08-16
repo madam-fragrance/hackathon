@@ -1,12 +1,14 @@
 
 // Month data mapping
 const monthFiles = {
-    'month1': 'attached_assets/month1.json_1755292968248.json',
-    'month2': 'attached_assets/month2.json_1755292968247.json',
-    'month3': 'attached_assets/month3.json_1755292968247.json',
-    'month4': 'attached_assets/month4.json_1755292968246.json',
-    'month5': 'attached_assets/month5.json_1755295867053.json',
-    'month6': 'attached_assets/month6.json_1755297672895.json'
+    'month1.json.json',
+    'month2.json.json',
+    'month3.json.json',
+    'month4.json.json',
+    'month5.json.json',
+    'month6.json.json',
+    'month-7.json.json',
+    'month8.json.json',
 };
 
 // Store the full month data
