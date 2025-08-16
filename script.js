@@ -8,7 +8,7 @@ const monthFiles = {
     'month5.json.json',
     'month6.json.json',
     'month-7.json.json',
-    'month8.json.json',
+    'month8.json.',
 };
 
 // Store the full month data
