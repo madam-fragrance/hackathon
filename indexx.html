@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elyx Health Journey - WhatsApp Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="title">Elyx Health Journey - WhatsApp Chat (8 Months)</h2>
+
+  <div class="controls">
+    <label for="monthSelector">Month:</label>
+    <select id="monthSelector">
+      <option value="">--Select Month--</option>
+      <option value="month1">September 2025</option>
+      <option value="month2">October 2025</option>
+      <option value="month3">November 2025</option>
+      <option value="month4">December 2025</option>
+      <option value="month5">January 2026</option>
+      <option value="month6">February 2026</option>
+      <option value="month7">March 2026</option>
+      <option value="month8">April 2026</option>
+    </select>
+
+    <label for="weekSelector" id="weekLabel" style="display:none;">Week:</label>
+    <select id="weekSelector" style="display:none;">
+      <option value="">--All Weeks--</option>
+    </select>
+  </div>
+
+  <div id="chat"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
