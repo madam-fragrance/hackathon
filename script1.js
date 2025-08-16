@@ -1,12 +1,12 @@
 const monthFiles = {
-  month1: 'assets/month1.json',
-  month2: 'assets/month2.json',
-  month3: 'assets/month3.json',
-  month4: 'assets/month4.json',
-  month5: 'assets/month5.json',
-  month6: 'assets/month6.json',
-  month7: 'assets/month7.json',
-  month8: 'assets/month8.json',
+  month1: 'month1.json',
+  month2: 'month2.json',
+  month3: 'month3.json',
+  month4: 'month4.json',
+  month5: 'month5.json',
+  month6: 'month6.json',
+  month7: 'month-7.json',
+  month8: 'month8.json',
 };
 
 let currentMonthData = [];
@@ -162,4 +162,5 @@ function displayChat(data) {
       chatDiv.appendChild(summaryDiv);
     }
   });
+
 }
